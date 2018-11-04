@@ -12,10 +12,8 @@ reliant on news sources that are often biased and don't provide them with useful
 conclusions.
 
 In this project, we hope to address several such questions, with the end goal of
-making it easy for those interested to come to conclusions of their own [TODO:
-Maybe narrow the range of questions down? I'll do some prelim analysis tomorrow
-and settle on an avenue that is appropriately promising]. Topics of interest
-include: 
+making it easy for those interested to come to conclusions of their own. Topics
+of interest include: 
 >"How have changes in political power affected the swiss standard of living and
 >lifestyle (e.g. crime rates, incomes, education rates, etc.)"
 
