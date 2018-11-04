@@ -15,7 +15,7 @@ In this project, we hope to address several such questions, with the end goal of
 making it easy for those interested to come to conclusions of their own. Topics
 of interest include: 
 >"How have changes in political power affected the swiss standard of living and
->lifestyle (e.g. crime rates, incomes, education rates, etc.)"
+>lifestyle (e.g. crime rates, incomes, education rates, etc.)?"
 
 and
 >"How has Swiss federal and cantonal spending changed historically and what
@@ -73,6 +73,15 @@ Opendata.swiss:
    https://opendata.swiss/en/dataset/erwachsene-verurteilungen-aufgrund-von-gewaltstraftaten1
   * Minors
    https://opendata.swiss/en/dataset/jugendliche-verurteilungen-aufgrund-von-gewaltstraftaten1
+
+* Standard of Living
+  Formatting between these two sources is fairly consistent and they'll be
+  useful in making a measure of change in the quality of life for the average
+  citzen.
+  * Disposable income and savings of households
+  https://opendata.swiss/en/dataset/verfugbares-einkommen-und-ersparnis-der-privaten-haushalte-und-pooe-zu-laufenden-preisen2
+  * Unemployment rates by canton (also available by other groupings)
+  https://opendata.swiss/en/dataset/arbeitslose-nach-kanton-jahresdurchschnitt
 
 # A list of internal milestones up until project milestone 2
 * Do data cleaning on all datasets of interest
