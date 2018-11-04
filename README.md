@@ -5,7 +5,7 @@ It's hard to work for social good when we don't know what is good for society.
 
 Despite the availability of data, it's still difficult for the average
 concerned citizen to draw any meaningful conclusions from it. Someone might ask
-questions like "I wonder if my governments spending is benefiting me?" or "Has
+questions like "I wonder if my government's spending is benefiting me?" or "Has
 my the party I voted for actually improved my quality of living in any
 measurable way?" But, without the skills and tools to analyze data, they're left
 reliant on news sources that are often biased and don't provide them with useful
@@ -75,7 +75,7 @@ Opendata.swiss:
    https://opendata.swiss/en/dataset/jugendliche-verurteilungen-aufgrund-von-gewaltstraftaten1
 
 * Standard of Living
-  Formatting between these two sources is fairly consistent and they'll be
+  * Formatting between these two sources is fairly consistent and they'll be
   useful in making a measure of change in the quality of life for the average
   citzen.
   * Disposable income and savings of households
