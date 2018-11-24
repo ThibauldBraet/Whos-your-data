@@ -1,89 +1,56 @@
-# Trends in Swiss Society
+# Looking at crime in NYC
 
 # Abstract
-It's hard to work for social good when we don't know what is good for society.
+With more then 8.5 million inhabitants, New York City is the 10th biggest city in the world.
 
-Despite the availability of data, it's still difficult for the average
-concerned citizen to draw any meaningful conclusions from it. Someone might ask
-questions like "I wonder if my government's spending is benefiting me?" or "Has
-my the party I voted for actually improved my quality of living in any
-measurable way?" But, without the skills and tools to analyze data, they're left
-reliant on news sources that are often biased and don't provide them with useful
-conclusions.
+It thus consists of a lot of people on a small space and so the chances are big that people get irritated by each other.
+Some people might express this by ignoring you in the hallway, others might just shoot a bullet through your head.
 
-In this project, we hope to address several such questions, with the end goal of
-making it easy for those interested to come to conclusions of their own. Topics
-of interest include: 
->"How have changes in political power affected the swiss standard of living and
->lifestyle (e.g. crime rates, incomes, education rates, etc.)?"
+It's obvious that we would prefer the first neighbour, rather than the second one.
+But when moving to NYC, it can be hard to choose a good place to live, especially when you still want something afordable.
 
-and
->"How has Swiss federal and cantonal spending changed historically and what
->effects have these changes had on Swiss society (i.e. employment, travelling
->time between City centres, health, etc.)?"
+In this project we want to give people who want to move to NYC in the long term some insight when looking for a good place to establish themselves.
 
-Using visualizations and insightful data groupings, we hope to make these
-questions more approachable to the average person. 
+We will look at how the crime rates for each region evolved through time and if this has an influence on the housing prices for specific regions. You might assume that safer regions have higher housing prices but you might just as well be missing some spots with a good cost/crim ratio.
+
+When people are buying a place in NYC, they probably want to build out a life there with eventually maybe children. Of course you don't want your child to become the next Charles Manson so that's why we will also have a look if there is a correlation between school results and crime rates in several regions
+
+Using visualizations and insightful data groupings, we hope to make the search for housing easier for future citizens of NYC
+
 
 # Research questions
-* How can we make data-based conclusions on Swiss society as approachable as
-possible through the use of visualizations and meaningful analysis?
+* Looking at the five boroughs of NYC (Bronx, Manhattan, Brooklyn, Queens and Staten Island), which region is more prone to crime in comparison with the others
 
-* How have historical changes in political power within Switzerland affected
-the lifestyle of the average citizen? Metrics for lifestyle include mean
-household income, crime rat, employment rate, income inequality, etc. 
+* How have crime rates been evolving through the past years. Here we won't only look at crime in general but also to different categories of crime BROCK: INSERT KINDS OF CRIME
 
-* What are some trends in Swiss federal and cantonal spending? How have focuses
-changed in recent years and what quantifiable effects have these changes had?
+* How are school results distributed over NYC and do we see a correaltion when looking at the same map with crime rates NIKITA: INSERT WHAT KIND OF SCHOOL RESULTS
 
-* How have crime rates and types changed over time? Crime is an issue that plagues
-every human society that has ever existed and making visualizations and
-conclusions about crime within Switzerland - considered a relatively safe
-environment - would be quite interesting.
+* How are housing prices distributed over NYC and is it indeed the case that cheaper neighbourhoods have a higher crime rate
+
 
 # Dataset
-The data sets below have varying formats so it will take some data cleaning
-to get them to mesh. With this in mind, we have a rich array of datasets 
+Just like Switzerland, NYC also has a website full of open data. We have a rich array of datasets 
 which we can group and work with.
 
-Opendata.swiss:
-      https://opendata.swiss/en/
+Opendata.cityofnewyork:
+    https://opendata.cityofnewyork.us/
+    
+    
+* Crime:
 
-* Politcal Power
-  As both federal and cantonal parliaments hold significant power in the swiss
-  government, it is worth looking at both of them when deciding which parties
-  are 'in control' so to speak. 
-  * Federal Parliament:
-   This data set is simply a list of every member of the federal assembly,
-   beginning in the 19th century. As it contains party-affiliation for each
-   member, this can be leveraged to develop a sense of party control in the
-   upper and lower chambers of the assembly.
-   https://www.parlament.ch/en/ratsmitglieder
-  * Cantonal Parliament:
-   This data is more organized, so to speak, but there is more junk formatting
-   making data cleaning slighlty more difficult. It contains over 20 years of
-   cantonal parliamentary data.
-   https://opendata.swiss/en/dataset/kantonale-parlamentswahlen-ins-kantonale-parlament-gewahlte-frauen-und-manner-nach-parteien
+* School Results:
 
-* Violent Crime:
-  * With over 20 years of data for every type of violent crime, these data sets
-   are both useful in drawing conclusions on the temporal presence of crime in
-   Switzerland.
-  * Adults
-   https://opendata.swiss/en/dataset/erwachsene-verurteilungen-aufgrund-von-gewaltstraftaten1
-  * Minors
-   https://opendata.swiss/en/dataset/jugendliche-verurteilungen-aufgrund-von-gewaltstraftaten1
+* Housing Prices:
+    We found a dataset with all projects, starting from 01/01/2014
+    It consists of the number of units in each project/building and for each unit it is assigned for which kind of income it would be afforable. This allows us to look where more low income units are available in comparison with high income units.
+    Since the data only starts from 2014, it will probably not be useful to do some temporal analysis on the data.
+    The advantage of this dataset is that it is pretty small (<1MB) so we don't need a lot processing power.
+    https://data.cityofnewyork.us/Housing-Development/Housing-New-York-Units-by-Building/hg8x-zxpr
 
-* Standard of Living
-  * Formatting between these two sources is fairly consistent and they'll be
-  useful in making a measure of change in the quality of life for the average
-  citzen.
-  * Disposable income and savings of households
-  https://opendata.swiss/en/dataset/verfugbares-einkommen-und-ersparnis-der-privaten-haushalte-und-pooe-zu-laufenden-preisen2
-  * Unemployment rates by canton (also available by other groupings)
-  https://opendata.swiss/en/dataset/arbeitslose-nach-kanton-jahresdurchschnitt
 
 # A list of internal milestones up until project milestone 2
+NEEDS TO BE REDEFINED!!!
+
 * Do data cleaning on all datasets of interest
 * Examine libraries and techniques for temporal visualizations
 * Narrow down our plan for a cohesive and interesting analysis that would cater
@@ -91,7 +58,8 @@ Opendata.swiss:
 * Develop a narrative for our data
 * Develop/find a skeleton for our data story website
 
-# Questions for TAa
+# Questions for TA
+NEEDS TO BE REDEFINED!!!
 * Would you recommend changing our scope? 
 * From previous experiences with students doing projects of this sort on Swiss
 society, what should we look out for and what might be some particularly
