@@ -52,19 +52,46 @@ This dataset has information about the aggregated graduation rates of students i
     https://data.cityofnewyork.us/Housing-Development/Housing-New-York-Units-by-Building/hg8x-zxpr
 
 
-# A list of internal milestones up until project milestone 2
-NEEDS TO BE REDEFINED!!!
+# Plan of work
+## Week 1 (29/10 - 04/11)
+* Look for appropiate and interesting dataset to work with
+* Create project idea
 
-* Do data cleaning on all datasets of interest
-* Examine libraries and techniques for temporal visualizations
-* Narrow down our plan for a cohesive and interesting analysis that would cater
-  to the average concerned Swiss citzen (or any citzen for that matter)
-* Develop a narrative for our data
-* Develop/find a skeleton for our data story website
-* Determine ways to present the full crime dataset to the readers, including creative filtering mechanisms
+## Week 2 (05/11 - 11/11)
+* Discuss project with Jeremie
+* Redefine project idea -> make idea more specific
+* Look for new data sets (NYC Open data instead of Swiss Open Data)
+
+## Week 3 (12/11 - 18/11)
+* Understand the datasets in terms of terminology (columns used)
+* Filter data such data only relevant information remains
+* Look at how well distributed the data is.
+* Begin exploratory analysis
+* Create new valuable features
+
+## Week 4 (19/11 - 25/11)
+* Finalize exploratory analysis
+* Brainstorm about the main goals for this project (visualization, clustering, Quality of Living metric etc)
+
+## Week 5 (26/11 - 02/12)
+* Find correlations between different datasets (crime, education, housing)
+* Create metric to evaluate best place to live in
+* Do a temporal analysis of the datasets and see how they evolve through time
+
+## Week 6 (03/12 - 09/12)
+* Create visualizations to display correlations
+* Filter on different kind of crimes and look for correlations
+* Make interactive map to pinpoint the best place to live in based on some user defined metrics
+
+## Week 7 (10/12 - 16/12)
+* Create github website to display data story
+* Finetune visualizations
+
+## Week 8 (17/12 - 23/12)
+* Finish website
+* Finish poster
 
 # Questions for TA
-NEEDS TO BE REDEFINED!!!
 * Would you recommend changing our scope? 
 * From previous experiences with students doing projects of this sort on Swiss
 society, what should we look out for and what might be some particularly
