@@ -23,9 +23,9 @@ Using visualizations and insightful data groupings, we hope to make the search f
 
 * How have crime rates been evolving through the past years. In addition to examining overall crime rates and trends based solely on the numbers, we will also examine the frequency of specific types of crimes. The crime data given provides information on the severity of the crime, categorizing them as either felonies, violations, or misdemeanors (in decreasing order of severity). We will investigate which regions of the city are most prone to violent crime (as well as petty crime, and so on), and look at how those regions have shifted and evolved over time.
 
-* How are school results distributed over NYC and do we see a correaltion when looking at the same map with crime rates NIKITA: INSERT WHAT KIND OF SCHOOL RESULTS
+* How are school graduation and dropout rates distributed over NYC and how do they correlate to crime rates in those same areas - especially over the course of several years? 
 
-* How are housing prices distributed over NYC and is it indeed the case that cheaper neighbourhoods have a higher crime rate
+* How are housing prices distributed over NYC and is it indeed the case that cheaper neighbourhoods have a higher crime rate?
 
 
 # Dataset
@@ -41,6 +41,8 @@ https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i5
 This dataset provides information about all crimes reported to the NYPD from 2006-2017 including the location of the crimes, demographical information, and severity of the crime. The data is very large; as such, we will need to be creative in determining the best way to visualize subsets of it. For example, viewing data on the daily or monthly scale would make map visualizations much easier than over the span of the entire decade.
 
 * School Results:
+https://infohub.nyced.org/reports-and-policies/citywide-information-and-data/graduation-results
+This dataset has information about the aggregated graduation rates of students in NYC boroughs from 2001 to 2013 for each NYC Borough. Education is widely accepted to be extremely important and pivotal in determining quality-of-life and this dataset allows us to compare the state of education in each borough to the appropriate crime rates. 
 
 * Housing Prices:
     We found a dataset with all projects, starting from 01/01/2014
