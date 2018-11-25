@@ -65,7 +65,7 @@ This dataset has information about the aggregated graduation rates of students i
 ## Week 3 (12/11 - 18/11)
 * Understand the datasets in terms of terminology (columns used)
 * Filter data such data only relevant information remains
-* Look at how well distributed the data is.
+* Look at how well distributed the data is
 * Begin exploratory analysis
 * Create new valuable features
 
@@ -77,6 +77,8 @@ This dataset has information about the aggregated graduation rates of students i
 * Find correlations between different datasets (crime, education, housing)
 * Create metric to evaluate best place to live in
 * Do a temporal analysis of the datasets and see how they evolve through time
+* Create simple temporal visualizations
+* Sketch up ideas for visualizations and explore further vis options
 
 ## Week 6 (03/12 - 09/12)
 * Create visualizations to display correlations
