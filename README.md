@@ -70,7 +70,7 @@ This dataset has information about the aggregated graduation rates of students i
 * Create new valuable features
 
 ## Week 4 (19/11 - 25/11)
-* Finalize exploratory analysis
+* Finalize exploratory analysis (Exploration.ipynb)
 * Brainstorm about the main goals for this project (visualization, clustering, Quality of Living metric etc)
 
 ## Week 5 (26/11 - 02/12)
