@@ -11,7 +11,7 @@ But when moving to NYC, it can be hard to choose a good place to live, especiall
 
 In this project we want to give people who want to move to NYC in the long term some insight when looking for a good place to establish themselves.
 
-We will look at how the crime rates for each region evolved through time and if this has an influence on the housing prices for specific regions. You might assume that safer regions have higher housing prices but you might just as well be missing some spots with a good cost/crim ratio.
+We will look at how the crime rates for each region evolved through time and if this has an influence on the housing prices for specific regions. You might assume that safer regions have higher housing prices but you might just as well be missing some spots with a good cost/crime ratio.
 
 When people are buying a place in NYC, they probably want to build out a life there with eventually maybe children. Of course you don't want your child to become the next Charles Manson so that's why we will also have a look if there is a correlation between school results and crime rates in several regions
 
@@ -21,7 +21,7 @@ Using visualizations and insightful data groupings, we hope to make the search f
 # Research questions
 * Looking at the five boroughs of NYC (Bronx, Manhattan, Brooklyn, Queens and Staten Island), which region is more prone to crime in comparison with the others
 
-* How have crime rates been evolving through the past years. Here we won't only look at crime in general but also to different categories of crime BROCK: INSERT KINDS OF CRIME
+* How have crime rates been evolving through the past years. In addition to examining overall crime rates and trends based solely on the numbers, we will also examine the frequency of specific types of crimes. The crime data given provides information on the severity of the crime, categorizing them as either felonies, violations, or misdemeanors (in decreasing order of severity). We will investigate which regions of the city are most prone to violent crime (as well as petty crime, and so on), and look at how those regions have shifted and evolved over time.
 
 * How are school results distributed over NYC and do we see a correaltion when looking at the same map with crime rates NIKITA: INSERT WHAT KIND OF SCHOOL RESULTS
 
@@ -37,6 +37,8 @@ Opendata.cityofnewyork:
     
     
 * Crime:
+https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i
+This dataset provides information about all crimes reported to the NYPD from 2006-2017 including the location of the crimes, demographical information, and severity of the crime. The data is very large; as such, we will need to be creative in determining the best way to visualize subsets of it. For example, viewing data on the daily or monthly scale would make map visualizations much easier than over the span of the entire decade.
 
 * School Results:
 
@@ -57,6 +59,7 @@ NEEDS TO BE REDEFINED!!!
   to the average concerned Swiss citzen (or any citzen for that matter)
 * Develop a narrative for our data
 * Develop/find a skeleton for our data story website
+* Determine ways to present the full crime dataset to the readers, including creative filtering mechanisms
 
 # Questions for TA
 NEEDS TO BE REDEFINED!!!
@@ -64,3 +67,4 @@ NEEDS TO BE REDEFINED!!!
 * From previous experiences with students doing projects of this sort on Swiss
 society, what should we look out for and what might be some particularly
 interesting avenues for analysis?
+* What visualization framework would you recommend for larger datasets like the one we are using?
