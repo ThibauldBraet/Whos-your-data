@@ -1,0 +1,26 @@
+Housing
+- Crate metric of affordability (based on median income, prices per square foot, total price of residence, ...)
+- Create heatmap of affordability
+- Temporal analysis of how affordability evolves. Maybe look at different metrics since affordability will probably stay the same but housing prices might be rising but just n all regions
+
+Education
+- Create metric based on graduation and honours
+- Heatmap of metric
+- Temporal analysis 
+- Barchart with top schools
+- Look at ethnicity
+
+Crime
+- Make separate heatmap for 
+	1. Violations
+	2. misdemeanor
+	3. fellonies
+- Crate heatmap with overlays (checkbox for each kind of crime)
+- Heatmap of crimerate (= crime/100k people)
+- Temporal analysis to see how different kinds of crimes evolve over time. A map that transitions with a timer would be really cool
+
+Overall
+- Craete heatmap with overall score
+- Overall score: maps each subsection to a score between 0 and 1
+- Give users a slider to give a preference to each subsection between 0 and 1. Use this as weighing factor to calculate overal score
+- Create barchart with best neighbourhoods according to users preferences
