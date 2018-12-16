@@ -45,12 +45,8 @@ https://infohub.nyced.org/reports-and-policies/citywide-information-and-data/gra
 This dataset has information about the aggregated graduation rates of students in NYC boroughs from 2001 to 2013 for each NYC Borough. Education is widely accepted to be extremely important and pivotal in determining quality-of-life and this dataset allows us to compare the state of education in each borough to the appropriate crime rates. 
 
 * Housing Prices:
-    We found a dataset with all projects, starting from 01/01/2014
-    It consists of the number of units in each project/building and for each unit it is assigned for which kind of income it would be afforable. This allows us to look where more low income units are available in comparison with high income units.
-    Since the data only starts from 2014, it will probably not be useful to do some temporal analysis on the data.
-    The advantage of this dataset is that it is pretty small (<1MB) so we don't need a lot processing power.
-    https://data.cityofnewyork.us/Housing-Development/Housing-New-York-Units-by-Building/hg8x-zxpr
-
+    We found a dataset with all the housing sales in the five borough of NYC since 2003. Using the columns 'sale price', 'gross square feet' and 'total units' we will have a look at how afforable housing is in the different regions of NYC.
+    https://www1.nyc.gov/site/finance/taxes/property-rolling-sales-data.page
 
 # Plan of work
 ## Week 1 (29/10 - 04/11)
@@ -90,8 +86,12 @@ This dataset has information about the aggregated graduation rates of students i
 * Finetune visualizations
 
 ## Week 8 (17/12 - 23/12)
-* Finish website
-* Finish poster
+* Finish notebook: Living in NYC.ipynb
+* Finish website: https://thibauldbraet.github.io/
+* Start poster
+
+## Week 9 (24/12 - 30/12)
+* Finish Poster
 
 # Questions for TA
 * Would you recommend changing our scope? 
@@ -99,3 +99,8 @@ This dataset has information about the aggregated graduation rates of students i
 society, what should we look out for and what might be some particularly
 interesting avenues for analysis?
 * What visualization framework would you recommend for larger datasets like the one we are using?
+
+# Task division
+* Thibauld Braet: Housing Analysis
+* Nikita Filippov: Education Analysis
+* Brock Grassy: Crime Analysis + Creation map overall evaluation
